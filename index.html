@@ -9,28 +9,66 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="carousel">
-            <div class="col">
-                <img src="https://via.placeholder.com/200" width='200px' alt="profile pic" id='profile-pic'>
-                <img src="images/quotation-marks.png" alt="comma" id='comma'>
+        <div class="carousel" id='slider'>
+            <div class="slide " id='slide-1'>
+                <div class="col">
+                    <img src="https://via.placeholder.com/200" width='200px' alt="profile pic" id='profile-pic'>
+                    <img src="images/quotation-marks.png" alt="comma" id='comma'>
+                </div>
+                <div class="col">
+    
+                    <div class="content">
+                        <p>
+                            Slide-1  : Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit alias earum ipsum maiores expedita aperiam ut veniam dolore culpa corporis molestiae voluptatibus magnam quos quasi nemo, dicta praesentium porro.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellat dolor dolorem odio, laborum expedita quasi necessitatibus labore dolorum, quae sapiente accusantium. Atque blanditiis obcaecati autem voluptas qui, nostrum explicabo!
+                        </p>
+                        <h4>Author</h4>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit alias earum ipsum maiores expedita aperiam ut veniam dolore culpa corporis molestiae voluptatibus magnam quos quasi nemo, dicta praesentium porro.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellat dolor dolorem odio, laborum expedita quasi necessitatibus labore dolorum, quae sapiente accusantium. Atque blanditiis obcaecati autem voluptas qui, nostrum explicabo!
-                    </p>
-                    <h4>Author</h4>
-                    <p>Lorem, ipsum.</p>
+            <div class="slide" id='slide-2'>
+                <div class="col">
+                    <img src="https://via.placeholder.com/200" width='200px' alt="profile pic" id='profile-pic'>
+                    <img src="images/quotation-marks.png" alt="comma" id='comma'>
+                </div>
+                <div class="col">
+    
+                    <div class="content">
+                        <p>
+                            Slide-2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit alias earum ipsum maiores expedita aperiam ut veniam dolore culpa corporis molestiae voluptatibus magnam quos quasi nemo, dicta praesentium porro.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellat dolor dolorem odio, laborum expedita quasi necessitatibus labore dolorum, quae sapiente accusantium. Atque blanditiis obcaecati autem voluptas qui, nostrum explicabo!
+                        </p>
+                        <h4>Author</h4>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id='slide-3'>
+                <div class="col">
+                    <img src="https://via.placeholder.com/200" width='200px' alt="profile pic" id='profile-pic'>
+                    <img src="images/quotation-marks.png" alt="comma" id='comma'>
+                </div>
+                <div class="col">
+    
+                    <div class="content">
+                        <p>
+                            slide-3 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit alias earum ipsum maiores expedita aperiam ut veniam dolore culpa corporis molestiae voluptatibus magnam quos quasi nemo, dicta praesentium porro.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellat dolor dolorem odio, laborum expedita quasi necessitatibus labore dolorum, quae sapiente accusantium. Atque blanditiis obcaecati autem voluptas qui, nostrum explicabo!
+                        </p>
+                        <h4>Author</h4>
+                        <p>Lorem, ipsum.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="slider-dot-control">
-    <label for=slide1></label>
-    <label for=slide2></label>
-    <label for=slide3></label>
-  </div>
+    <nav>
+        <a href="#slide-1" onclick='currentSlide(1)'>1</a>
+        <a href="#slide-2" onclick='currentSlide(2)'>2</a>
+        <a href="#slide-3" onclick='currentSlide(3)'>3</a>
+    </nav>
 </body>
+<script src="main.js"></script>
+
 </html>
