@@ -1,8 +1,11 @@
+
 .slide {
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     border-radius: 20px;
-    padding: 16px;
-    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex !important;
+    z-index: 1;
     justify-content: space-between;
     color: white;
 }
@@ -18,12 +21,13 @@
 .col > span {
     background: white;
     width: 400px;
-    left: -70px;
+    left: -40px;
     top: -100px;
     display: flex;
     border-bottom-right-radius: 20%;
     border-top-right-radius: 20%;
     position: relative;
+    z-index: 100 !important;
     flex-direction: row-reverse; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -46,7 +50,7 @@
 @media only screen and (max-width: 600px) {
   
   .testimonial_quote {
-      display: none;
+      display: none !important;
   }
   .slide {
       flex-direction: column;

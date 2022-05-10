@@ -3,6 +3,9 @@
       <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="testimonials.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -65,5 +68,25 @@
         </div>
       </div>
     </div>
+
+    <script>
+     var $jq = jQuery.noConflict();
+$jq(document).ready(function() {
+$jq('.testimonial-slides').slick({
+infinite: true,
+dots: true,
+arrows: false,
+autoplay: false,
+autoplaySpeed: 3000,
+fadeSpeed: 1000,
+});
+    });
+
+  </script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
+
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
   </body>
+
+  </script>
 </html>
